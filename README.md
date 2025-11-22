@@ -3,17 +3,17 @@ This Python script implements a simple command-line interface (CLI) application 
 
 College Library Seat Reservation System (CLI)
 
-📖 Project Title
+Project Title
 
 Simple CLI Library Seat Reservation System with Expiration Logic
 
-🌐 Overview of the Project
+Overview of the Project
 
 This project is a small, simulated command-line application designed to manage the reservation of seats in a college library. It uses basic Python data structures (lists and dictionaries) to maintain the state of 10 available seats and introduces a time-based expiration mechanism.
 
 The system is built around the concept of a "tick," which represents a unit of time that advances after every user action. If a reserved seat's grace period (default 3 ticks) expires, the seat can be automatically freed up for other students, simulating a real-world system where reservations are cancelled if the user doesn't check in promptly.
 
-✨ Features
+Features
 
 The system supports both student and coordinator roles with distinct actions:
 
@@ -39,7 +39,7 @@ Coordinator Override: The coordinator role can manually set any seat to 'Availab
 
 Tick-Based Progression: The system clock (CURRENT_TICK) advances after every menu interaction, driving the expiration logic.
 
-💻 Technologies/Tools Used
+Technologies/Tools Used
 
 Tool
 
@@ -57,7 +57,7 @@ Dictionaries & Lists
 
 Used for managing the seat data (SEATS_DATA) and status.
 
-🚀 Steps to Install & Run the Project
+Steps to Install & Run the Project
 
 Since this is a single, self-contained Python script, installation is straightforward.
 
@@ -72,7 +72,7 @@ python library_system.py
 
 Start Interacting: The application will immediately display the menu and the initial status of the 10 available seats.
 
-🧪 Instructions for Testing
+Instructions for Testing
 
 Follow these steps to demonstrate the core functionality, especially the time-based expiration:
 
